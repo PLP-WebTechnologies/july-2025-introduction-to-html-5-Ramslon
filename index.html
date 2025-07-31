@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ramson Lunayo | Accessible & Semantic Web Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal web portfolio of Ramson Lunayo, showcasing accessible and semantic HTML5 structure for beginner developers." />
+  <meta name="keywords" content="Ramson Lunayo, Web Developer, Accessibility, Semantic HTML5, Beginner Portfolio" />
+  <meta name="author" content="Ramson Lunayo" />
+</head>
+<body>
+
+  <header role="banner">
+    <h1>Ramson Lunayo</h1>
+    <p>Accessible Web Developer & HTML5 Enthusiast</p>
+  </header>
+
+  <nav role="navigation" aria-label="Main navigation">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main role="main" id="main-content">
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <p>Hello! I'm Ramson Lunayo, a web developer dedicated to building inclusive and semantic websites. I focus on writing clean HTML5 and creating web pages that are accessible to everyone, including people using assistive technologies.</p>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+      <p>Here are a few examples of my recent work that follow best practices in semantic structure and accessibility:</p>
+      <ul>
+        <li><strong>Accessible Portfolio</strong> - A resume website using only semantic HTML5.</li>
+        <li><strong>Contact Form Demo</strong> - A form built with proper labels and fieldsets for screen readers.</li>
+      </ul>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>If you'd like to connect, feel free to reach out via the email below.</p>
+      <address>
+        Email: <a href="mailto:ramsonlonayo@gmail.com">ramsonlonayo@mail.com</a><br />
+        Location: Nairobi, Kenya
+      </address>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 Ramson Lunayo. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
